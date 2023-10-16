@@ -26,33 +26,33 @@
 
     .general__section-2 {
         height: 500px;
-        border-top: 1px solid #000;
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
-        border-bottom: 1px solid #000;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
     }
 
     .general__section-3 {
         height: 500px;
         border-top: 1px solid #000;
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
-        border-bottom: 1px solid #000;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
     }
 
     .general__section-4 {
         height: 500px;
         border-top: 1px solid #000;
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
-        border-bottom: 1px solid #000;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
     }
 
     .general__section-5 {
         height: 500px;
         border-top: 1px solid #000;
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
+        border-left: none;
+        border-right: none;
         border-bottom: 1px solid #000;
     }
 
@@ -117,7 +117,7 @@
     }
 
     .footer {
-        height: 585px;
+        height: 600px;
       }
 
     .footer__content {
