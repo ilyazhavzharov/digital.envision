@@ -1,0 +1,165 @@
+@media (max-width: 700px) {
+    .general__box {
+        display: block;
+    }
+
+    .general__section-1 {
+        height: 896px;
+    }
+
+    .general__section-1-title {
+        margin-top: 240px;
+        width: 100%;
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .general__section-1-title p{
+        font-size: 17px;
+        line-height: 35px;
+        margin-top: 30px;
+    }
+
+    .general__section-header-menu-link {
+        font-size: 22px;
+    }
+
+    .general__section-2 {
+        height: 500px;
+        border-top: 1px solid #000;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+        border-bottom: 1px solid #000;
+    }
+
+    .general__section-3 {
+        height: 500px;
+        border-top: 1px solid #000;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+        border-bottom: 1px solid #000;
+    }
+
+    .general__section-4 {
+        height: 500px;
+        border-top: 1px solid #000;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+        border-bottom: 1px solid #000;
+    }
+
+    .general__section-5 {
+        height: 500px;
+        border-top: 1px solid #000;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+        border-bottom: 1px solid #000;
+    }
+
+    .portfolio__title {
+        font-size: 35px;
+    }
+
+    .portfolio__description {
+        font-size: 18px;
+    }
+
+    .portfolio__card {
+        height: 400px;
+        width: 100%;
+    }
+
+    .portfolio__card-title {
+        line-height: 30px;
+    }
+
+    .portfolio__card-description {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .contact__title {
+        font-size: 35px;
+    }
+
+    .contact__description {
+        font-size: 18px;
+    }
+
+    .contact__modal {
+        top: 26%;
+        left: 8%;
+        width: 324px;
+    }
+
+    .contact__modal-title {
+        width: 300px;
+        margin-left: 0;
+        line-height: 30px;
+        font-size: 27px;
+        margin-top: 45px;
+    }
+
+    .contact__modal-cross {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact__modal-cross svg{
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact__modal-description {
+        width: 281px;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .footer {
+        height: 585px;
+      }
+
+    .footer__content {
+        display: block;
+        padding-top: 40px;
+    }
+
+    .footer__content-menu-list {
+        display: block;
+        text-align: center;
+    }
+
+    .footer__content-menu-li {
+        margin-bottom: 50px;
+    }
+
+    .footer__content-menu-link {
+        margin-right: 0;
+    }
+
+    .footer__content-menu-li:nth-child(4) {
+        margin-bottom: 0;
+    }
+
+    .footer__social {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .footer__social button {
+        padding: 20px 0;
+        width: 100%;
+        margin-bottom: 30px;
+      }
+}
+
+@media (max-width: 376px) {
+    .portfolio__card-description {
+        width: 270px;
+    }
+
+    .contact__check-box-label {
+        font-size: 15px;
+      }
+}
