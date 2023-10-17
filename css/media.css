@@ -20,6 +20,12 @@
         margin-top: 30px;
     }
 
+    .general__section-1-title img {
+        position: absolute;
+        top: 106px;
+        left: -83px;
+    }
+
     .general__section-header-menu-link {
         font-size: 22px;
     }
@@ -84,6 +90,18 @@
 
     .contact__description {
         font-size: 18px;
+    }
+
+    .input-1 {
+        border-radius: 0;
+    }
+
+    .input-2 {
+        border-radius: 0;
+    }
+
+    .input-3 {
+        border-radius: 0;
     }
 
     .contact__modal {

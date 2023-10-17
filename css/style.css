@@ -127,6 +127,12 @@
   color: #fff;
 }
 
+.general__section-1-title img {
+  position: absolute;
+  top: 150px;
+  left: 325px;
+}
+
 .general__section-2 {
   border: 1px solid #000;
   grid-area: 1 / 2 / 1 / 5;

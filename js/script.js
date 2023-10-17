@@ -62,6 +62,7 @@ function modalOpen () {
     document.querySelector('.input-1').value = '';
     document.querySelector('.input-2').value = '';
     document.querySelector('.input-3').value = '';
+    document.querySelector('.contact__check-box-input').checked = false;
 }
 
 function modalClose () {
