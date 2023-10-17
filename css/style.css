@@ -131,6 +131,7 @@
   position: absolute;
   top: 150px;
   left: 325px;
+  z-index: -1;
 }
 
 .general__section-2 {
@@ -142,6 +143,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.first-elips {
+  width: 180px;
+  height: 180px;
+  background-color: #000;
+  border-radius: 100%;
 }
 
 .general__section-3 {
