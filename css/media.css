@@ -1,65 +1,84 @@
 @media (max-width: 700px) {
-    .general__box {
+    .general__screen-wrapper {
         display: block;
     }
 
-    .general__section-1 {
+    .general__screen-block-1 {
         height: 500px;
+        border-top: 1px solid #000;
+        border-right: none;
+        border-left: none;
+        border-bottom: none;
     }
 
-    .general__section-1-title {
-        margin-top: 95px;
-        width: 100%;
-        font-size: 39px;
-        line-height: 50px;
+    .first-line-cross {
+        width: 40px;
     }
 
-    .general__section-1-title p{
-        font-size: 17px;
-        line-height: 35px;
-        margin-top: 30px;
+    .second-line-cross {
+        width: 40px;
     }
 
-    .general__section-1-title img {
-        position: absolute;
-        top: 106px;
-        left: -83px;
+    .general__screen-block-1-menu {
+        margin-top: 60px;
     }
 
-    .general__section-header-menu-link {
+    .general__screen-block-1-menu-li {
+        margin-bottom: 50px;
+    }
+
+    .general__screen-block-1-menu-link {
         font-size: 22px;
+        line-height: 35px;
     }
 
-    .general__section-2 {
+    .burger__social button {
+        display: none;
+    }
+
+    .general__screen-block-1-title-1 {
+        margin-top: 110px;
+        font-size: 39px;
+        width: 230px;
+    }
+
+    .general__screen-block-1-title-2 {
+        font-size: 39px;
+        width: 310px;
+    }
+
+    .general__screen-block-1-description {
+        font-size: 16px;
+        width: 310px;
+    }
+
+    .general__screen-block-2 {
         height: 500px;
-        border-top: none;
-        border-left: none;
+        border-top: 1px solid #000;
         border-right: none;
+        border-left: none;
         border-bottom: none;
     }
 
-    .general__section-3 {
+    .general__screen-block-3 {
         height: 500px;
         border-top: 1px solid #000;
-        border-left: none;
         border-right: none;
+        border-left: none;
         border-bottom: none;
     }
 
-    .general__section-4 {
+    .general__screen-block-4 {
         height: 500px;
-        border-top: 1px solid #000;
-        border-left: none;
         border-right: none;
+        border-left: none;
         border-bottom: none;
     }
 
-    .general__section-5 {
+    .general__screen-block-5 {
         height: 500px;
-        border-top: 1px solid #000;
-        border-left: none;
         border-right: none;
-        border-bottom: 1px solid #000;
+        border-left: none;
     }
 
     .portfolio__title {

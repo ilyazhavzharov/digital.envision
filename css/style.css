@@ -9,202 +9,219 @@
 }
 
 /* SECTION GENERAL */
-.general__box {
+.general__screen-wrapper {
   display: grid;
-  grid-template-columns: repeat(7, auto);
-  grid-template-rows: repeat(2, 370px);
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, 375px);
 }
 
-.general__section-1 {
-  grid-area: 1 / 1 / 3 / 1;
-  position: relative;
-  border: 1px solid black;
-  background-color: #000000;
+.general__screen-block-1-container {
+  padding: 30px;
+}
+
+.general__screen-block-1 {
+  grid-area: 1 / 1 / 3 / 3;
+  background-color: #000;
+  border: 1px solid #000;
   border-top: none;
+  border-left: none;
 }
 
-.general__section-elements {
-  height: 491px;
+.general__screen-block-1-burger {
+  height: 15px;
   display: flex;
   flex-direction: column;
-  position: relative;
-}
-
-.general__section-header {
-  margin-top: 40px;
-  align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 
-.general__section-header-menu-link {
-  position: relative;
-  display: block;
-  color: #fff;
-  font-family: "COUTUREBold";
+.first-line {
+  width: 70px;
+  height: 1.5px;
+  background-color: #fff;
+}
+
+.second-line {
+  width: 40px;
+  height: 1.5px;
+  background-color: #fff;
+}
+
+.general__screen-block-1-cross {
+  height: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.first-line-cross {
+  width: 50px;
+  height: 1.5px;
+  background-color: #fff;
+  rotate: 45deg;
+}
+
+.second-line-cross {
+  width: 50px;
+  height: 1.5px;
+  background-color: #fff;
+  rotate: -45deg;
+  margin-bottom: 12px;
+}
+
+.general__screen-block-1-menu {
+  margin-top: 100px;
+}
+
+.general__screen-block-1-menu-li {
   margin-bottom: 70px;
-  font-size: 25px;
 }
 
-.general__section-header-menu-link:nth-child(1) {
-  margin-top: 70px;
-}
-
-.general__section-header-menu-link:nth-child(4) {
+.general__screen-block-1-menu-li:nth-child(4) {
   margin-bottom: 0;
 }
 
-.general__section-header-menu-link::after {
+.general__screen-block-1-menu-link {
+  font-size: 30px;
+  font-family: "COUTUREBold";
+  color: #fff;
+  position: relative;
+}
+
+.general__screen-block-1-menu-link::after {
   position: absolute;
   content: "";
   height: 2px;
   background: #fff;
-  transition: all 0.5s linear;
+  transition: 0.5s;
   width: 0;
   bottom: -7px;
   left: 0;
 }
 
-.general__section-header-menu-link:hover::after {
-  width: 50px;
+.burger__social {
+  margin-top: 100px;
 }
 
-.general__section-header-burger {
-  cursor: pointer;
-}
-
-.first-line {
-  width: 80px;
-  height: 2px;
-  background-color: #fff;
-  margin-bottom: 10px;
-}
-
-.second-line {
-  width: 50px;
-  height: 2px;
-  background-color: #fff;
-  margin-bottom: 10px;
-}
-
-.general__section-header-cross {
-  cursor: pointer;
-}
-
-.first-line-cross {
-  transform: rotate(40deg);
-  width: 40px;
-  height: 2px;
-  background-color: #fff;
-  margin-bottom: -1px;
-}
-
-.second-line-cross {
-  transform: rotate(-45deg);
-  width: 40px;
-  height: 2px;
-  background-color: #fff;
-  margin-bottom: 10px;
-}
-
-.general__section-1-title {
-  margin-top: 200px;
-  font-size: 70px;
-  width: 550px;
-  color: #000;
-  font-weight: 600;
+.burger__social button {
+  padding: 20px 40px;
   font-family: "COUTUREBold";
-  line-height: 99.523%;
-  z-index: 2;
+  font-size: 18px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  color: #fff;
 }
 
-.general__section-1-title h1{
-  background-color: #d9ff1e;
+.burger__social a {
+  margin-right: 20px;
 }
 
-.general__section-1-title h2{
-  margin-top: 10px;
-  background-color: #d9ff1e;
+.burger__social button:hover {
+  border: 1px solid #000;
+  transition: 0.5s all linear;
+  background-color: #D9FF1E;
+  color: #000;
 }
 
-.general__section-1-title p {
+.burger__social a:nth-child(1) {
+  margin-left: 0;
+}
+
+.general__screen-block-1-menu-link:hover::after {
+  width: 50px;
+}
+
+.general__screen-block-1-title-1 {
+  margin-top: 190px;
+  font-size: 70px;
+  font-family: "COUTUREBold";
+  background-color: #D9FF1E;
+  color: #000;
+  width: 400px;
+}
+
+.general__screen-block-1-title-2 {
+  margin-top: 20px;
+  font-size: 70px;
+  font-family: "COUTUREBold";
+  background-color: #D9FF1E;
+  color: #000;
+  width: 550px;
+}
+
+.general__screen-block-1-description {
+  margin-top: 30px;
   font-size: 18px;
   font-family: "Gilroy";
   font-weight: 300;
   line-height: 30px;
-  margin-top: 40px;
-  opacity: 70%;
   color: #fff;
+  width: 500px;
 }
 
-/* .general__section-1-title img {
-  position: absolute;
-  top: 150px;
-  left: 325px;
-  z-index: -1;
-} */
-
-.general__section-2 {
+.general__screen-block-2 {
+  grid-area: 1 / 3 / 2 / 4;
   border: 1px solid #000;
-  grid-area: 1 / 2 / 1 / 5;
-  border-top:  none;
-  border-left: none;
-  border-bottom: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.first-elips {
-  width: 180px;
-  height: 180px;
-  background-color: #000;
-  border-radius: 100%;
-}
-
-.general__section-3 {
-  border: 1px solid #000;
-  grid-area: 1 / 5 / 1 / 8;
   border-top: none;
-  border-right: none;
   border-left: none;
+  border-bottom: none;
+}
+
+.general__screen-block-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.general__screen-block-3 {
+  grid-area: 1 / 4 / 2 / 5;
+  border: 1px solid #000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   border-bottom: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
-  font-family: "COUTUREBold";
 }
 
-.general__section-3 p {
+.general__screen-block-3 p {
+  font-size: 40px;
+  font-family: "COUTUREBold";
   width: 270px;
   margin: 0 auto;
   text-align: center;
   line-height: 53.409px;
 }
 
-.general__section-4 {
+
+.general__screen-block-4 {
+  grid-area: 2 / 3 / 2 / 4;
   border: 1px solid #000;
-  grid-area: 2 / 2 / 2 / 5;
   border-left: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
-  font-family: "COUTUREBold";
 }
 
-.general__section-4 p {
+.general__screen-block-4 p {
+  font-size: 40px;
+  font-family: "COUTUREBold";
   width: 270px;
   margin: 0 auto;
   text-align: center;
   line-height: 53.409px;
 }
 
-.general__section-5 {
+.general__screen-block-5 {
+  grid-area: 2 / 4 / 2 / 5;
   border: 1px solid #000;
-  grid-area: 2 / 5 / 2 / 8;
   border-right: none;
   border-left: none;
+}
+
+.general__screen-block-5 {
   display: flex;
   justify-content: center;
   align-items: center;
