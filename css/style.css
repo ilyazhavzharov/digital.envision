@@ -50,23 +50,19 @@
 }
 
 .general__screen-block-1-cross {
-  height: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   cursor: pointer;
 }
 
 .first-line-cross {
-  width: 50px;
-  height: 1.5px;
+  width: 35px;
+  height: 1px;
   background-color: #fff;
   rotate: 45deg;
 }
 
 .second-line-cross {
-  width: 50px;
-  height: 1.5px;
+  width: 35px;
+  height: 1px;
   background-color: #fff;
   rotate: -45deg;
   margin-bottom: 12px;
