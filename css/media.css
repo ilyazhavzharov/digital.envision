@@ -85,6 +85,7 @@
 
   .portfolio__title {
     font-size: 35px;
+    line-height: 45px;
   }
 
   .portfolio__description {
@@ -107,6 +108,7 @@
 
   .contact__title {
     font-size: 35px;
+    line-height: 45px;
   }
 
   .contact__description {
