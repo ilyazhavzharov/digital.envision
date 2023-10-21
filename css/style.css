@@ -233,7 +233,7 @@
 
 .portfolio__description {
   margin-top: 30px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 35.124px;
   font-family: "Gilroy";
 }
@@ -348,7 +348,7 @@
 
 .contact__description {
   margin-top: 30px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 35.124px;
   font-family: "Gilroy";
 }
@@ -389,10 +389,11 @@
 }
 
 .contact__modal {
-  top: 24%;
-  left: 22%;
-  right: 50%;
-  bottom: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto auto;
   width: 863px;
   height: 400px;
   position: fixed;
